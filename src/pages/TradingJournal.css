@@ -1,0 +1,167 @@
+.journal {
+  animation: fadeIn 0.3s ease-in;
+}
+
+.journal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.journal-header h1 {
+  font-size: 32px;
+  color: #16a34a;
+}
+
+.journal-form {
+  background: rgba(22, 163, 74, 0.1);
+  border: 1px solid rgba(22, 163, 74, 0.3);
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.journal-form h2 {
+  margin-bottom: 20px;
+  color: #16a34a;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  color: #a0aec0;
+  font-weight: 600;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  background: rgba(15, 52, 96, 0.5);
+  border: 1px solid rgba(22, 163, 74, 0.3);
+  border-radius: 8px;
+  color: #e0e0e0;
+  font-family: inherit;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #16a34a;
+  background: rgba(15, 52, 96, 0.7);
+}
+
+.form-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.entries-list {
+  display: grid;
+  gap: 20px;
+}
+
+.entry-card {
+  background: rgba(15, 52, 96, 0.5);
+  border: 1px solid rgba(22, 163, 74, 0.2);
+  border-radius: 12px;
+  padding: 20px;
+  transition: all 0.3s ease;
+}
+
+.entry-card:hover {
+  background: rgba(15, 52, 96, 0.7);
+  border-color: rgba(22, 163, 74, 0.4);
+}
+
+.entry-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 15px;
+}
+
+.entry-header h3 {
+  font-size: 20px;
+  color: #16a34a;
+  margin-bottom: 5px;
+}
+
+.entry-date {
+  color: #718096;
+  font-size: 14px;
+}
+
+.entry-content {
+  color: #cbd5e1;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.entry-tags {
+  color: #16a34a;
+  font-size: 12px;
+  font-style: italic;
+}
+
+.no-data {
+  text-align: center;
+  color: #718096;
+  padding: 40px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.btn-primary {
+  background: rgba(22, 163, 74, 0.3);
+  color: #16a34a;
+  border: 1px solid rgba(22, 163, 74, 0.5);
+}
+
+.btn-primary:hover {
+  background: rgba(22, 163, 74, 0.5);
+}
+
+.btn-success {
+  background: #16a34a;
+  color: #1a1a2e;
+}
+
+.btn-success:hover {
+  background: #15803d;
+}
+
+.btn-secondary {
+  background: rgba(160, 174, 192, 0.2);
+  color: #a0aec0;
+}
+
+.btn-secondary:hover {
+  background: rgba(160, 174, 192, 0.3);
+}
+
+.btn-danger {
+  background: rgba(239, 68, 68, 0.2);
+  color: #ef4444;
+  padding: 8px 12px;
+}
+
+.btn-danger:hover {
+  background: rgba(239, 68, 68, 0.3);
+}
